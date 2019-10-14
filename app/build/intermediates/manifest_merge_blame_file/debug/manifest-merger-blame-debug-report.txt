@@ -1,0 +1,145 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ru.orlovph.intervaltimer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->A:\Android My projects\Interval timer\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->A:\Android My projects\Interval timer\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->A:\Android My projects\Interval timer\app\src\main\AndroidManifest.xml:5:5-67
+11-->A:\Android My projects\Interval timer\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\21e8d20ddcf5ccd0a0a24b476fc9146f\play-services-ads-lite-18.1.1\AndroidManifest.xml:24:5-79
+12-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\21e8d20ddcf5ccd0a0a24b476fc9146f\play-services-ads-lite-18.1.1\AndroidManifest.xml:24:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\5b1dc9f733330360c290619e0a278602\play-services-measurement-17.0.0\AndroidManifest.xml:25:5-68
+13-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\5b1dc9f733330360c290619e0a278602\play-services-measurement-17.0.0\AndroidManifest.xml:25:22-65
+14    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+14-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\5b1dc9f733330360c290619e0a278602\play-services-measurement-17.0.0\AndroidManifest.xml:26:5-110
+14-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\5b1dc9f733330360c290619e0a278602\play-services-measurement-17.0.0\AndroidManifest.xml:26:22-107
+15
+16    <application
+16-->A:\Android My projects\Interval timer\app\src\main\AndroidManifest.xml:6:5-26:19
+17        android:allowBackup="true"
+17-->A:\Android My projects\Interval timer\app\src\main\AndroidManifest.xml:7:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.0.0] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\4de34232979cbe134bd28b81339a3afe\core-1.0.0\AndroidManifest.xml:22:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->A:\Android My projects\Interval timer\app\src\main\AndroidManifest.xml:8:9-43
+21        android:label="@string/app_name"
+21-->A:\Android My projects\Interval timer\app\src\main\AndroidManifest.xml:9:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->A:\Android My projects\Interval timer\app\src\main\AndroidManifest.xml:10:9-54
+23        android:supportsRtl="true"
+23-->A:\Android My projects\Interval timer\app\src\main\AndroidManifest.xml:11:9-35
+24        android:theme="@style/AppTheme" >
+24-->A:\Android My projects\Interval timer\app\src\main\AndroidManifest.xml:12:9-40
+25        <meta-data
+25-->A:\Android My projects\Interval timer\app\src\main\AndroidManifest.xml:13:9-15:69
+26            android:name="com.google.android.gms.ads.APPLICATION_ID"
+26-->A:\Android My projects\Interval timer\app\src\main\AndroidManifest.xml:14:13-69
+27            android:value="ca-app-pub-5128977529277778~2689942059" />
+27-->A:\Android My projects\Interval timer\app\src\main\AndroidManifest.xml:15:13-67
+28
+29        <activity android:name="ru.orlovph.intervaltimer.TimerActivity" >
+29-->A:\Android My projects\Interval timer\app\src\main\AndroidManifest.xml:16:9-18:20
+29-->A:\Android My projects\Interval timer\app\src\main\AndroidManifest.xml:16:19-48
+30        </activity>
+31        <activity android:name="ru.orlovph.intervaltimer.MainActivity" >
+31-->A:\Android My projects\Interval timer\app\src\main\AndroidManifest.xml:19:9-25:20
+31-->A:\Android My projects\Interval timer\app\src\main\AndroidManifest.xml:19:19-47
+32            <intent-filter>
+32-->A:\Android My projects\Interval timer\app\src\main\AndroidManifest.xml:20:13-24:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->A:\Android My projects\Interval timer\app\src\main\AndroidManifest.xml:21:17-69
+33-->A:\Android My projects\Interval timer\app\src\main\AndroidManifest.xml:21:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->A:\Android My projects\Interval timer\app\src\main\AndroidManifest.xml:23:17-77
+35-->A:\Android My projects\Interval timer\app\src\main\AndroidManifest.xml:23:27-74
+36            </intent-filter>
+37        </activity>
+38        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+39        <activity
+39-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\21e8d20ddcf5ccd0a0a24b476fc9146f\play-services-ads-lite-18.1.1\AndroidManifest.xml:29:9-33:64
+40            android:name="com.google.android.gms.ads.AdActivity"
+40-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\21e8d20ddcf5ccd0a0a24b476fc9146f\play-services-ads-lite-18.1.1\AndroidManifest.xml:30:13-65
+41            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+41-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\21e8d20ddcf5ccd0a0a24b476fc9146f\play-services-ads-lite-18.1.1\AndroidManifest.xml:31:13-122
+42            android:exported="false"
+42-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\21e8d20ddcf5ccd0a0a24b476fc9146f\play-services-ads-lite-18.1.1\AndroidManifest.xml:32:13-37
+43            android:theme="@android:style/Theme.Translucent" />
+43-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\21e8d20ddcf5ccd0a0a24b476fc9146f\play-services-ads-lite-18.1.1\AndroidManifest.xml:33:13-61
+44
+45        <provider
+45-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\21e8d20ddcf5ccd0a0a24b476fc9146f\play-services-ads-lite-18.1.1\AndroidManifest.xml:35:9-39:39
+46            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+46-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\21e8d20ddcf5ccd0a0a24b476fc9146f\play-services-ads-lite-18.1.1\AndroidManifest.xml:36:13-76
+47            android:authorities="ru.orlovph.intervaltimer.mobileadsinitprovider"
+47-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\21e8d20ddcf5ccd0a0a24b476fc9146f\play-services-ads-lite-18.1.1\AndroidManifest.xml:37:13-73
+48            android:exported="false"
+48-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\21e8d20ddcf5ccd0a0a24b476fc9146f\play-services-ads-lite-18.1.1\AndroidManifest.xml:38:13-37
+49            android:initOrder="100" />
+49-->[com.google.android.gms:play-services-ads-lite:18.1.1] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\21e8d20ddcf5ccd0a0a24b476fc9146f\play-services-ads-lite-18.1.1\AndroidManifest.xml:39:13-36
+50
+51        <receiver
+51-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\5b1dc9f733330360c290619e0a278602\play-services-measurement-17.0.0\AndroidManifest.xml:29:9-33:20
+52            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+52-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\5b1dc9f733330360c290619e0a278602\play-services-measurement-17.0.0\AndroidManifest.xml:30:13-85
+53            android:enabled="true"
+53-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\5b1dc9f733330360c290619e0a278602\play-services-measurement-17.0.0\AndroidManifest.xml:31:13-35
+54            android:exported="false" >
+54-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\5b1dc9f733330360c290619e0a278602\play-services-measurement-17.0.0\AndroidManifest.xml:32:13-37
+55        </receiver>
+56        <receiver
+56-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\5b1dc9f733330360c290619e0a278602\play-services-measurement-17.0.0\AndroidManifest.xml:34:9-42:20
+57            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+57-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\5b1dc9f733330360c290619e0a278602\play-services-measurement-17.0.0\AndroidManifest.xml:35:13-100
+58            android:enabled="true"
+58-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\5b1dc9f733330360c290619e0a278602\play-services-measurement-17.0.0\AndroidManifest.xml:36:13-35
+59            android:exported="true"
+59-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\5b1dc9f733330360c290619e0a278602\play-services-measurement-17.0.0\AndroidManifest.xml:37:13-36
+60            android:permission="android.permission.INSTALL_PACKAGES" >
+60-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\5b1dc9f733330360c290619e0a278602\play-services-measurement-17.0.0\AndroidManifest.xml:38:13-69
+61            <intent-filter>
+61-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\5b1dc9f733330360c290619e0a278602\play-services-measurement-17.0.0\AndroidManifest.xml:39:13-41:29
+62                <action android:name="com.android.vending.INSTALL_REFERRER" />
+62-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\5b1dc9f733330360c290619e0a278602\play-services-measurement-17.0.0\AndroidManifest.xml:40:17-79
+62-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\5b1dc9f733330360c290619e0a278602\play-services-measurement-17.0.0\AndroidManifest.xml:40:25-76
+63            </intent-filter>
+64        </receiver>
+65
+66        <service
+66-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\5b1dc9f733330360c290619e0a278602\play-services-measurement-17.0.0\AndroidManifest.xml:44:9-47:40
+67            android:name="com.google.android.gms.measurement.AppMeasurementService"
+67-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\5b1dc9f733330360c290619e0a278602\play-services-measurement-17.0.0\AndroidManifest.xml:45:13-84
+68            android:enabled="true"
+68-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\5b1dc9f733330360c290619e0a278602\play-services-measurement-17.0.0\AndroidManifest.xml:46:13-35
+69            android:exported="false" />
+69-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\5b1dc9f733330360c290619e0a278602\play-services-measurement-17.0.0\AndroidManifest.xml:47:13-37
+70        <service
+70-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\5b1dc9f733330360c290619e0a278602\play-services-measurement-17.0.0\AndroidManifest.xml:48:9-52:72
+71            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+71-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\5b1dc9f733330360c290619e0a278602\play-services-measurement-17.0.0\AndroidManifest.xml:49:13-87
+72            android:enabled="true"
+72-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\5b1dc9f733330360c290619e0a278602\play-services-measurement-17.0.0\AndroidManifest.xml:50:13-35
+73            android:exported="false"
+73-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\5b1dc9f733330360c290619e0a278602\play-services-measurement-17.0.0\AndroidManifest.xml:51:13-37
+74            android:permission="android.permission.BIND_JOB_SERVICE" />
+74-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\5b1dc9f733330360c290619e0a278602\play-services-measurement-17.0.0\AndroidManifest.xml:52:13-69
+75
+76        <meta-data
+76-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\4bbd66a15a038d1f6ffc524480b95309\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+77            android:name="com.google.android.gms.version"
+77-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\4bbd66a15a038d1f6ffc524480b95309\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+78            android:value="@integer/google_play_services_version" />
+78-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Reed\.gradle\caches\transforms-2\files-2.1\4bbd66a15a038d1f6ffc524480b95309\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+79    </application>
+80
+81</manifest>
