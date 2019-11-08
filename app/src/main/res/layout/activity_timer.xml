@@ -79,4 +79,14 @@
         app:layout_constraintTop_toTopOf="parent"
         ads:adSize="BANNER"
         ads:adUnitId="ca-app-pub-5128977529277778/7452132384"/>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Every 'Click' on Ads helps developer"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
